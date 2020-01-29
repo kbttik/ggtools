@@ -5,6 +5,9 @@
 #' 
 #' @return numeric textのポジション
 #' 
+#' @examples make_piechart_text_position(vector)
+#' 
+#' @export
 make_piechart_text_position <- function(y){
   y <- rev(y)
   
