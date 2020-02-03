@@ -2,3 +2,4 @@
 
 export(get_rate_with_cusum)
 export(make_piechart_text_position)
+importFrom(dplyr,"%>%")

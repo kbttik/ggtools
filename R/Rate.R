@@ -6,6 +6,7 @@
 #' 
 #' @return numeric 全体の何割を占めているかのベクトル
 #' 
+#' @importFrom dplyr %>% 
 #' @export
 #' @examples get_rate_with_cusum(c(30, 10, 20))
 get_rate_with_cusum <- function(x, arrange = TRUE){
