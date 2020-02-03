@@ -1,9 +1,9 @@
 Package: ggtools
-Title: What the Package Does (One Line, Title Case)
+Title: GGplot Tools
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "taiki",
+           family = "kubota",
            role = c("aut", "cre"),
            email = "first.last@example.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
