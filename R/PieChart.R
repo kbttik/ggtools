@@ -13,7 +13,7 @@ make_piechart_text_position <- function(y){
   
   # cumsumして自分の切れ目の端から半分(0.5)をポジションとする
   y_cumsum <- cumsum(y) 
-  y_position <- y_cumsum - (y*.5)
+  y_position <- y_cumsum - (y*0.5)
   
   return(rev(y_position))
 }
