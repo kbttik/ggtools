@@ -1,14 +1,13 @@
 #' 
 #' cumsum(累積和)したときに占める割合を求める
+#' 
 #' @param x numeric 累積和するnumeric型のベクトル
 #' @param arrange boolean TRUEなら昇順にしてから求める.FALSEならそのまま
 #' 
 #' @return numeric 全体の何割を占めているかのベクトル
 #' 
-#' @example get_rate_with_cusum(vector)
-#' 
 #' @export
-
+#' @examples get_rate_with_cusum(c(30, 10, 20))
 get_rate_with_cusum <- function(x, arrange = TRUE){
   if(!all(x > 0))
     stop("input value needs > 0")
@@ -33,3 +32,4 @@ get_rate_with_cusum <- function(x, arrange = TRUE){
   
   return(x_tibble$cusum)
 }
+

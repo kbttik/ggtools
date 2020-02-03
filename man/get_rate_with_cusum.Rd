@@ -17,3 +17,6 @@ numeric 全体の何割を占めているかのベクトル
 \description{
 cumsum(累積和)したときに占める割合を求める
 }
+\examples{
+get_rate_with_cusum(c(30, 10, 20))
+}

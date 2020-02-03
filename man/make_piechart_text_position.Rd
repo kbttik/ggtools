@@ -16,6 +16,5 @@ numeric textのポジション
 pie chartのテキストのポジションを求める
 }
 \examples{
-make_piechart_text_position(vector)
-
+make_piechart_text_position(c(30, 10, 20))
 }
