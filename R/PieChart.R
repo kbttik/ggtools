@@ -1,5 +1,5 @@
 #' 
-#' Caluculating the text posion in pie chart
+#' pie chartのテキストのポジションを求める
 #' 
 #' @param y numeric pie chartで描く値
 #' 
