@@ -5,7 +5,7 @@
 #' 
 #' @return numeric 全体の何割を占めているかのベクトル
 #' 
-#' @example get_rate_with_cusum(numeric_vector)
+#' @example get_rate_with_cusum(vector)
 #' 
 #' @export
 

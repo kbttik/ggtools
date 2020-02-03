@@ -4,12 +4,12 @@
 \name{ggtools}
 \alias{ggtools}
 \alias{ggtools-package}
-\title{ggtools: What the Package Does (One Line, Title Case)}
+\title{ggtools: GGplot Tools}
 \description{
 What the package does (one paragraph).
 }
 \author{
-\strong{Maintainer}: First Last \email{first.last@example.com} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
+\strong{Maintainer}: taiki kubota \email{first.last@example.com} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
 
 }
 \keyword{GGPlot}

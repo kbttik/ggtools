@@ -2,7 +2,7 @@
 % Please edit documentation in R/PieChart.R
 \name{make_piechart_text_position}
 \alias{make_piechart_text_position}
-\title{Caluculating the text posion in pie chart}
+\title{pie chartのテキストのポジションを求める}
 \usage{
 make_piechart_text_position(y)
 }
@@ -13,7 +13,7 @@ make_piechart_text_position(y)
 numeric textのポジション
 }
 \description{
-Caluculating the text posion in pie chart
+pie chartのテキストのポジションを求める
 }
 \examples{
 make_piechart_text_position(vector)
